@@ -1,0 +1,5 @@
+## Learning outcomes of Git Hooks
+<p>Git Hooks are scripts that automatically run before or after certain actions such as commit, push, or merge of code. These automate processes include running tests, checking style code, or commit message validation. For instance, a pre-commit hook can refuse to commit the code if the code has errors in linting. These hooks enhance the quality of code as well as insisting on the team's consistent standard. They are locally stored in a Git repository and can be tailored to accommodate your development workflow.</p>
+
+## Learning outcomes of Husky
+<p>Husky is a tool that simplifies managing Git hooks within your project. Rather than having to insert scripts by hand into Git's internal.git/hooks directory, Husky lets you specify hooks within your codebase, where they are more easily shared and maintained within a team. Husky plays nice with tools like ESLint, Prettier, and Commitlint to auto-enforce coding quality and format standards. By including Husky, teams are able to find errors early on and guarantee clean, consistent code before even committing it.</p
